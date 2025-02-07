@@ -1,0 +1,43 @@
+fieldset {
+    border-radius: 4px;
+    border: 1px solid #808080;
+    max-width: 362px;
+    margin-bottom: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 12px;
+}
+
+fieldset:focus-within {
+    border-color: #000;
+}
+
+.form label:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+.form label:first-child input {
+    max-width: 362px;
+    margin-right: 0;
+    margin-bottom: 14px;
+}
+
+label {
+    display: inline-flex;
+    gap: 10px;
+    cursor: pointer;
+}
+
+input[type="radio"] {
+    display: inline;
+    margin: 0;
+}
+
+.delay-button {
+    display: block;
+    width: 100%;
+    max-width: 362px;
+}
